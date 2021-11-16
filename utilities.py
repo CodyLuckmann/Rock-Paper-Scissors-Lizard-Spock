@@ -1,20 +1,22 @@
-from typing_extensions import ParamSpecArgs
-
-
 class Utilites:
+    
+    gestures_list = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]
  
- def display_rules():   
+def display_rules():   
     rules = "The rules are: \nRock beats Scissors \nScissors beats Paper \nPaper beats Rock \nRock beats Lizard \nLizard beats Spock \nSpock beats Scissors \nScissors beats Lizard \nLizard beats Paper \nPaper beats Spock \nSpock beats Rock"
     print(rules) 
 
+def user_name():
+    input("Please enter your name: ")
+    return input
+
+def choose_game_mode():
+    int(input("For single player press: 1 \n For multiplayer press: 2 "))
+    if input == 1:
+        return 1
+    else:
+        return 2
+
+    
 
 
-
-#Test colab commit 
-
-# gestures list (import into ) 
-# rock
-# paper 
-# scissors
-# lizard
-# spock
