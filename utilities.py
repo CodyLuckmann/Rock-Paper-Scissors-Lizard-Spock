@@ -6,8 +6,8 @@ def display_welcome():
     print("Welcome to RPSLS!")    
     
 def display_rules():   
-    rules = "The rules are: \nRock beats Scissors \nScissors beats Paper \nPaper beats Rock \nRock beats Lizard \nLizard beats Spock \nSpock beats Scissors \nScissors beats Lizard \nLizard beats Paper \nPaper beats Spock \nSpock beats Rock"
-    print(rules) 
+    print("The rules are: \nRock beats Scissors \nScissors beats Paper \nPaper beats Rock \nRock beats Lizard \nLizard beats Spock \nSpock beats Scissors \nScissors beats Lizard \nLizard beats Paper \nPaper beats Spock \nSpock beats Rock")
+ 
 
 def choose_game_mode():
     int(input("For single player press: 1 \n For multiplayer press: 2 "))
