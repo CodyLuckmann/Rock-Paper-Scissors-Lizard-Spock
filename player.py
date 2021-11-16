@@ -11,15 +11,8 @@ class Player:
     # name
         self.name = name
         
-        
     def display_and_pick_gestures(self):
         gesture = int(input('rock = 1 \n paper = 2 \n scissors = 3 \n lizard = 4 \n spock = 5'))
         return gesture
-        
-    # method - pick/choose gesture
-    
-    
-    # human(self, pick)
-    
-    # AI
+
     
