@@ -18,7 +18,7 @@ def choose_game_mode():
         return 2
     
 def user_name():
-    input("Please enter your name: ")
+    Player_one = input("Please enter your name: ")
     return input
 
 def display_winner():
