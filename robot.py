@@ -1,16 +1,14 @@
 from utilities import Utilites
-import random
 from player import Player 
+import random
+import sys
 
 class Robot(Player):
-    def __init__(self, name):
-        self.name = name 
-        pass
+    def super(self).__init__(self):
+        self.processor = "Quad 186"
+
     
     def display_and_pick_gestures(list):
-        ran1 = random.choice(gestures_list)
+        ran1 = random.choice(_gestures_list)
         result = ran1
         return result
-    
-
-        pass 
