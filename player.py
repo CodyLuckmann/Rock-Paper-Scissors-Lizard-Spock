@@ -1,6 +1,9 @@
-class Player(self, name, wins):
+class Player:
+    def __init__(self, name):
     # name
-    # number of wins per turn
+        self.name = name
+        
+        
     # method - pick/choose gesture
     
     
