@@ -7,11 +7,10 @@ class Robot(Player):
         self.name = name 
         pass
     
-    def display_and_pick_gestures():
-        random.choice(gestures_list)
+    def display_and_pick_gestures(list):
         ran1 = random.choice(gestures_list)
         result = ran1
         return result
-                 
+    
 
         pass 
