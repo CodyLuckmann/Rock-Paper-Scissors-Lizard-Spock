@@ -1,5 +1,5 @@
 from utilities import Utilites
-from random import Random
+import random
 from player import Player 
 
 class Robot(Player):
