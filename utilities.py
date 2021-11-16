@@ -20,7 +20,7 @@ def user_name():
     Player_one = input("Please enter your name: ")
     return input
 
-def display_winner():
+def display_game_winner():
     print('Wins!!')
 
     
