@@ -21,6 +21,9 @@ def user_name():
     input("Please enter your name: ")
     return input
 
+def display_winner():
+    print('Wins!!')
+
     
 
 
