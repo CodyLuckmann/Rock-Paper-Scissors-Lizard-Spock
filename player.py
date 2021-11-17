@@ -20,7 +20,7 @@ class Player:
         result = player_input
         return result
     
-    def choose_game_mode(self, i):
+    def choose_game_mode(self):
         i =int(input("\nFor single player press: 1  \nFor multiplayer press: 2 "))
         if i == 1:
             return 1

@@ -12,7 +12,7 @@ class Game:
 
     Utilites.display_welcome()
     Utilites.display_rules()
-    i = Player.choose_game_mode(x,x)
+    i = Player.choose_game_mode(x)
     print(i)
     while i != 1 or 2:
         if i == 2:
@@ -23,5 +23,5 @@ class Game:
         elif i == 1:
             i = i
         else:
-            Player.choose_game_mode(x, x)
+            Player.choose_game_mode(x)
     
