@@ -22,13 +22,16 @@ class Utilites:
 
        
     def choose_game_mode():
-        i =int(input("\nFor single player press: 1  \nFor multiplayer press: 2 "))
-        if i == 1:
-            return 1
-        elif i == 2:
-            return 2
-        else:
-            print('Invalid choice, enter again')
+        i = 0
+        while i != (1 or 2):
+            i = int(input("\nFor single player press: 1  \nFor multiplayer press: 2 "))
+            print(i)
+            if i == 1:
+                return 1
+            elif i == 2:
+                return 2
+            else:
+                print('Invalid choice, enter again')
 
 #    def choose_player2_mode():
 #        player1 = Human(Player)

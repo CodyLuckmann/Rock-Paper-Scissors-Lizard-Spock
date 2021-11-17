@@ -1,3 +1,3 @@
-from player import Player 
-class Human(Player):
-    pass
+#from player import Player 
+#class Human(Player):
+#    pass

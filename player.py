@@ -1,7 +1,7 @@
 
 #from utilities import Utilites
 #from robot import Robot
-from human import Human
+#from human import Human
 
 
 class Player:
