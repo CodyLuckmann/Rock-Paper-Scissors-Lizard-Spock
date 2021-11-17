@@ -44,26 +44,34 @@ class Game:
     while counterp1 < 2:
         if i == 1:
             x = Player.display_and_pick_gestures(x)
-            #z = Robot.display_and_pick_gestures(Player.robolist)
-            z = 5
+            z = Robot.display_and_pick_gestures(Player.robolist)
             print(x)
             print(z)
-            if (x == 1 and z == 3 or 4):
+            if (x == 1) and (z == 3) or (z == 4):
+                print(counterp1)
                 counterp1 = counterp1 + 1
                 print(counterp1)
-        elif (x == 2 and z == 1 or 5):
-            x = True
-        elif (x == 3 and z == 2 or 4):
-            x = True
-        elif (x == 4 and z == 5 or 2):
-            x = True
-        elif (x == 5 and z == 3 or 1):
-            x = True
-        elif x == z:
-            print('tie')
-            #need to ask the user input again
-        else:
-            x = False
+            elif (x == 2) and (z == 1) or (z == 5):
+                print(counterp1)
+                counterp1 = counterp1 + 1
+                print(counterp1)
+            elif (x == 3) and (z == 2) or (z == 4):
+                print(counterp1)
+                counterp1 = counterp1 + 1
+                print(counterp1)
+            elif (x == 4) and (z == 5) or (z == 2):
+                print(counterp1)
+                counterp1 = counterp1 + 1
+                print(counterp1)
+            elif (x == 5) and (z == 3) or (z == 1):
+                print(counterp1)
+                counterp1 = counterp1 + 1
+                print(counterp1)
+            elif x == z:
+                print('tie')
+                #need to ask the user input again
+            else:
+                x = False
             
             
             
