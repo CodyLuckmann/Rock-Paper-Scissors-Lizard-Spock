@@ -1,4 +1,7 @@
-from robot import Robot
+from player import Player
+from robot import Robot 
+from human import Human 
+
 
 class Utilites:
     
@@ -19,17 +22,13 @@ class Utilites:
             return 2
         
     def choose_player2_mode():
-        player1 = "X"
+        player1 = human(Player)
         i = int(input("Please press Y to play against a AI or Z to play against Human. ") 
         if i == "Y"
-        # then robot 
-        # player2 = AI 
-        # set random
-        if i == "Z"
-        # player2 = Human
-        # alternate plays 
-        
-        
+        player2 = Player.robot
+        else i == "Z" 
+        player2 = Player.human 
+           
     def user_name():
         Player_one = input("Please enter your name: ")
         return input
