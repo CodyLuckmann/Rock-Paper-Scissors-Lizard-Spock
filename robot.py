@@ -8,6 +8,8 @@ class Robot(Player):
 
     
     def display_and_pick_gestures(list):
-        ran1 = random.choice(Player.gestures_list)
+        ran1 = random.choice(Player.robolist)
+        print(ran1)
+        
         result = ran1
         return result

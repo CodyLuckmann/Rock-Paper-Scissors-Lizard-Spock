@@ -1,13 +1,38 @@
 from player import Player
 from utilities import Utilites
+from robot import Robot
+#from test import Test
 p1 = 0
 p2 = 0
 x = 0
 i = 0
+counterp1 = 0
+counterp2 = 0
+counterAI = 0
 
 class Game:
     def __init__(self, p1, p2):
         pass
+    
+#    def player_choice(self, p2c=None):
+#        #Utilites.display_welcome()
+#        player1_choice = 0
+#        player2_choice = 0
+#        if (player1_choice == 1 and player2_choice == 3 or 4):
+#            player1_choice = True
+#        elif (player1_choice == 2 and player2_choice == 1 or 5):
+#            player1_choice = True
+#        elif (player1_choice == 3 and player2_choice == 2 or 4):
+#            player1_choice = True
+#        elif (player1_choice == 4 and player2_choice == 5 or 2):
+#            player1_choice = True
+#        elif (player1_choice == 5 and player2_choice == 3 or 1):
+#            player1_choice = True
+#        elif player1_choice == player2_choice:
+#            print('tie')
+#            #need to ask the user input again
+#        else:
+#            player1_choice = False
     
 
     
@@ -15,6 +40,35 @@ class Game:
     Utilites.display_rules()
     i = Utilites.choose_game_mode()
     print(i)
+    
+    while counterp1 < 2:
+        if i == 1:
+            x = Player.display_and_pick_gestures(x)
+            #z = Robot.display_and_pick_gestures(Player.robolist)
+            z = 5
+            print(x)
+            print(z)
+            if (x == 1 and z == 3 or 4):
+                counterp1 = counterp1 + 1
+                print(counterp1)
+        elif (x == 2 and z == 1 or 5):
+            x = True
+        elif (x == 3 and z == 2 or 4):
+            x = True
+        elif (x == 4 and z == 5 or 2):
+            x = True
+        elif (x == 5 and z == 3 or 1):
+            x = True
+        elif x == z:
+            print('tie')
+            #need to ask the user input again
+        else:
+            x = False
+            
+            
+            
+    
+        
     
     
     

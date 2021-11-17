@@ -2,10 +2,11 @@ from utilities import Utilites
 
 
 class Test:
+    z = 0
 
 
     def player_choice(self, p2c=None):
-        Utilites.display_welcome()
+        #Utilites.display_welcome()
         player1_choice = 0
         player2_choice = 0
         if (player1_choice == 1 and player2_choice == 3 or 4):
