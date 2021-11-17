@@ -8,20 +8,41 @@ class Game:
     def __init__(self, p1, p2):
         pass
     
-   
 
-    Utilites.display_welcome()
-    Utilites.display_rules()
-    i = Player.choose_game_mode(x)
+    def run_game(self):
+        Utilites.display_welcome()
+        Utilites.display_rules()
+        self.battle()
+        Utilites.display_game_winner()
+
+    def battle(self):
+        
+        # instantiate one human player at least
+        # p1 = Human()
+        # Ask h vs h or h vs ai
+        # instantiate second base upon response 
+        # Conditional
+        #     p2 = Human() or p2 = Robot()
+            
+        # p1.setname()
+        # p2.setname()
+        pass 
+
+    i = Utilites.choose_game_mode()
     print(i)
-    while i != 1 or 2:
+    keeplooping = True
+    while keeplooping :
         if i == 2:
+            
             print('Player one please enter your name: ')
             p1 = Player.user_name(p1)
             print('Player two please enter your name: ')
             p2 = Player.user_name(p2)
+            keeplooping = False
         elif i == 1:
-            i = i
+            
+            pass
         else:
-            Player.choose_game_mode(x)
+            Utilites.choose_game_mode()
+            
     
