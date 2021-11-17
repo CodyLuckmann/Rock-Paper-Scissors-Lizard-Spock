@@ -1,3 +1,5 @@
+from robot import Robot
+
 class Utilites:
     
     gestures_list = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]
@@ -15,6 +17,18 @@ class Utilites:
             return 1
         else:
             return 2
+        
+    def choose_player2_mode():
+        player1 = "X"
+        i = int(input("Please press Y to play against a AI or Z to play against Human. ") 
+        if i == "Y"
+        # then robot 
+        # player2 = AI 
+        # set random
+        if i == "Z"
+        # player2 = Human
+        # alternate plays 
+        
         
     def user_name():
         Player_one = input("Please enter your name: ")
