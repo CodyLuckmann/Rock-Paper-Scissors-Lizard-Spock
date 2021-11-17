@@ -1,7 +1,7 @@
 
 #from utilities import Utilites
 #from robot import Robot
-#from human import Human
+from human import Human
 
 
 class Player:
@@ -21,7 +21,7 @@ class Player:
         return result
     
     def choose_game_mode(self):
-        i =int(input("\nFor single player press: 1  \nFor multiplayer press: 2 "))
+        i =int(input("\nPlease press 1 for Single Player:  \nPlease press 2 for Multi-Player: "))
         if i == 1:
             return 1
         elif i == 2:
