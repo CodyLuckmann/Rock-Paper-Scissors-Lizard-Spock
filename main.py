@@ -1,9 +1,11 @@
 from utilities import Utilites
 from player import Player
 from random import Random
-
+from game import Game
 # instantiate game
 
+cjs = Game()
+cjs.run_game()
 
 # run game
 RPSLS.gun_game()
