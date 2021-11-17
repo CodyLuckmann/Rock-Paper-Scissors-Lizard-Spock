@@ -24,7 +24,7 @@ class Utilites:
     def choose_game_mode():
         i = 0
         while i != (1 or 2):
-            i = int(input("\nFor single player press: 1  \nFor multiplayer press: 2 "))
+            i = int(input("\nPress 1 for single player:  \nPress 2 for Multi-Player: "))
             print(i)
             if i == 1:
                 return 1
