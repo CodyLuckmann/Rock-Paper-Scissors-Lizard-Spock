@@ -71,7 +71,6 @@ class Game:
                     print("\nPlayer one wins this round\n")
             elif x == z:
                     print('\ntie\n')
-                    
             else:
                     counterp2 = counterp2 + 1
                     print("\nPlayer two wins this round\n")
