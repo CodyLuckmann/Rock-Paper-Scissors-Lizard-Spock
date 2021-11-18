@@ -6,7 +6,7 @@ class Utilites:
     
     
     def display_welcome():
-        print("\n\nWelcome to RPSLS!\n")    
+        print("\n\nWelcome to Rock Paper Scissors Lizard Spock!\n")    
         
     def display_rules():   
         print("The rules are: \nRock beats Scissors \nScissors beats Paper \nPaper beats Rock \nRock beats Lizard \nLizard beats Spock \nSpock beats Scissors \nScissors beats Lizard \nLizard beats Paper \nPaper beats Spock \nSpock beats Rock\n")
