@@ -22,10 +22,12 @@ class Game:
     
         while (counterp1 < 2) or (counterp2 < 2):
 
-            if counterp1 == 2: 
-                sys.exit('Player 1 wins')
+            if counterp1 == 2:
+                print('Player 1 wins') 
+                sys.exit()
             elif counterp2 == 2:
-                sys.exit('Player 2 wins')
+                print('Player 2 wins')
+                sys.exit()
             if counterp1 == 2:
                 print("\nPlayer 1 wins the game!\n") 
                 sys.exit
