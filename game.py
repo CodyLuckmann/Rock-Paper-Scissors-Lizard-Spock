@@ -3,13 +3,6 @@ from utilities import Utilites
 from robot import Robot
 import sys
 
-#x = 0
-#z = 0
-#i = 0
-#counterp1 = 0
-#counterp2 = 0
-
-
 class Game:
     def __init__(self):
         pass
@@ -19,13 +12,7 @@ class Game:
     
     Utilites.display_welcome()
     Utilites.display_rules()
-#    i = Utilites.choose_game_mode()
-#    print(i)
-#    x = 0
-#    z = 0
-#    i = 0
-#    counterp1 = 0
-#    counterp2 = 0
+
     
     def game(i):
         x = 0
@@ -55,31 +42,26 @@ class Game:
                 print('Player two chose')
                 print(z)
                 if ((x == 1) and ((z == 3) or (z == 4))):
-                    print(counterp1)
                     counterp1 = counterp1 + 1
-                    print(counterp1)
+                    print("Player one wins this round")
                 elif ((x == 2) and ((z == 1) or (z == 5))):
-                    print(counterp1)
                     counterp1 = counterp1 + 1
-                    print(counterp1)
+                    print("Player one wins this round")
                 elif ((x == 3) and ((z == 2) or (z == 4))):
-                    print(counterp1)
                     counterp1 = counterp1 + 1
-                    print(counterp1)
+                    print("Player one wins this round")
                 elif ((x == 4) and ((z == 5) or (z == 2))):
-                    print(counterp1)
                     counterp1 = counterp1 + 1
-                    print(counterp1)
+                    print("Player one wins this round")
                 elif ((x == 5) and ((z == 3) or (z == 1))):
-                    print(counterp1)
                     counterp1 = counterp1 + 1
-                    print(counterp1)
+                    print("Player one wins this round")
                 elif x == z:
                     print('tie')
                     
                 else:
                     counterp2 = counterp2 + 1
-                    print(counterp2)
+                    print("Player two wins this round")
             
             
             
