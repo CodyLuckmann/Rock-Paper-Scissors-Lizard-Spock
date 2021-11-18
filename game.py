@@ -22,10 +22,10 @@ class Game:
     
         while (counterp1 < 2) or (counterp2 < 2):
             if counterp1 == 2:
-                print("Player 1 wins the game!") 
+                print("\nPlayer 1 wins the game!\n") 
                 sys(exit)
             elif counterp2 == 2:
-                print("Player 2 wins the game!")
+                print("\nPlayer 2 wins the game!\n")
                 sys(exit)
             elif i == 1:
                 x = Player.display_and_pick_gestures(x)
@@ -33,35 +33,35 @@ class Game:
                 # print(x)
                 # print(z)
             elif i == 2:
-                print('Player one choose first')
+                print('\nPlayer one choose first\n')
                 x = Player.display_and_pick_gestures(x)
-                print('Player two choose')
+                print('\nPlayer two choose\n')
                 z = Player.display_and_pick_gestures(z)
-                print('Player one chose')
+                print('\nPlayer one chose\n')
                 print(x)
-                print('Player two chose')
+                print('\nPlayer two chose\n')
                 print(z)
             if ((x == 1) and ((z == 3) or (z == 4))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round\n")
+                    print("\nPlayer one wins this round\n")
             elif ((x == 2) and ((z == 1) or (z == 5))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round\n")
+                    print("\nPlayer one wins this round\n")
             elif ((x == 3) and ((z == 2) or (z == 4))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round\n")
+                    print("\nPlayer one wins this round\n")
             elif ((x == 4) and ((z == 5) or (z == 2))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round\n")
+                    print("\nPlayer one wins this round\n")
             elif ((x == 5) and ((z == 3) or (z == 1))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round\n")
+                    print("\nPlayer one wins this round\n")
             elif x == z:
-                    print('tie\n')
+                    print('\ntie\n')
                     
             else:
                     counterp2 = counterp2 + 1
-                    print("Player two wins this round\n")
+                    print("\nPlayer two wins this round\n")
             
             
             
