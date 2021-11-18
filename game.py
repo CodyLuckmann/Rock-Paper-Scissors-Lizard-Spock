@@ -71,7 +71,7 @@ class Game:
                 print('tie')
                 #need to ask the user input again
             else:
-                x = False
+                print('Player 2 wins')
             
             
             
