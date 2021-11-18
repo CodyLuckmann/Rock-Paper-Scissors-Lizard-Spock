@@ -32,6 +32,9 @@ class Game:
                 while (x < 1) or (x > 5):
                     if (x < 1) or (x > 5):
                         print('Invalid choice, please choose again')
+                        x = Player.display_and_pick_gestures(x)
+                    else:
+                        x = Player.display_and_pick_gestures(x)
                 z = Robot.display_and_pick_gestures(Player.robolist)
             elif i == 2:
                 print('\nPlayer one choose first\n')
@@ -39,11 +42,17 @@ class Game:
                 while (x < 1) or (x > 5):
                     if (x < 1) or (x > 5):
                         print('Invalid choice, please choose again')
+                        x = Player.display_and_pick_gestures(x)
+                    else:
+                        x = Player.display_and_pick_gestures(x)
                 print('\nPlayer two choose\n')
                 z = Player.display_and_pick_gestures(z)
                 while (z < 1) or (z > 5):
                     if (z < 1) or (z > 5):
                         print('Invalid choice, please choose again')
+                        z = Player.display_and_pick_gestures(z)
+                    else:
+                        z = Player.display_and_pick_gestures(z)
                 print('\nPlayer one chose\n')
                 print(x)
                 print('\nPlayer two chose\n')
