@@ -28,15 +28,16 @@ class Game:
                 print("\nPlayer 2 wins the game!\n")
                 sys(exit)
             elif i == 1:
-                x = Player.display_and_pick_gestures(x)
+                while x != range(4):
+                    x = Player.display_and_pick_gestures(x)
                 z = Robot.display_and_pick_gestures(Player.robolist)
-                # print(x)
-                # print(z)
             elif i == 2:
                 print('\nPlayer one choose first\n')
-                x = Player.display_and_pick_gestures(x)
+                while x != range(4):
+                    x = Player.display_and_pick_gestures(x)
                 print('\nPlayer two choose\n')
-                z = Player.display_and_pick_gestures(z)
+                while z != range(4):
+                    z = Player.display_and_pick_gestures(z)
                 print('\nPlayer one chose\n')
                 print(x)
                 print('\nPlayer two chose\n')
