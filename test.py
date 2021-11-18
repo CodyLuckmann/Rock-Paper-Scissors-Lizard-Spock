@@ -1,4 +1,5 @@
 from utilities import Utilites
+import random
 
 
 class Test:
@@ -27,9 +28,3 @@ class Test:
         
 test = Test()
 test.player_choice()
-        
-
-
-
-
-
