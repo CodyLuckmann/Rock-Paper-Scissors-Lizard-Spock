@@ -51,9 +51,8 @@ class Game:
                         z = Player.display_and_pick_gestures(z)
                     else:
                         z = Player.display_and_pick_gestures(z)
-                print('\nPlayer one chose\n')
+                print('\nPlayer one and Player two chose\n')
                 print(x)
-                print('\nPlayer two chose\n')
                 print(z)
             if ((x == 1) and ((z == 3) or (z == 4))):
                     counterp1 = counterp1 + 1
