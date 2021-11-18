@@ -12,7 +12,7 @@ class Player:
     robolist = [1,2,3,4,5]
         
     def display_and_pick_gestures(self):
-        gesture = int(input('Please pick a gesture: \nrock = 1 \n paper = 2 \n scissors = 3 \n lizard = 4 \n spock = 5'))
+        gesture = int(input("Please pick a gesture: \nRock = 1 \nPaper = 2 \nScissors = 3 \nLizard = 4 \nSpock = 5 \nChoice: "))
         result = gesture
         return result
     
