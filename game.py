@@ -47,23 +47,23 @@ class Game:
             z = Robot.display_and_pick_gestures(Player.robolist)
             print(x)
             print(z)
-            if (x == 1) and (z == 3) or (z == 4):
+            if ((x == 1) and ((z == 3) or (z == 4))):
                 print(counterp1)
                 counterp1 = counterp1 + 1
                 print(counterp1)
-            elif (x == 2) and (z == 1) or (z == 5):
+            elif ((x == 2) and ((z == 1) or (z == 5))):
                 print(counterp1)
                 counterp1 = counterp1 + 1
                 print(counterp1)
-            elif (x == 3) and (z == 2) or (z == 4):
+            elif ((x == 3) and ((z == 2) or (z == 4))):
                 print(counterp1)
                 counterp1 = counterp1 + 1
                 print(counterp1)
-            elif (x == 4) and (z == 5) or (z == 2):
+            elif ((x == 4) and ((z == 5) or (z == 2))):
                 print(counterp1)
                 counterp1 = counterp1 + 1
                 print(counterp1)
-            elif (x == 5) and (z == 3) or (z == 1):
+            elif ((x == 5) and ((z == 3) or (z == 1))):
                 print(counterp1)
                 counterp1 = counterp1 + 1
                 print(counterp1)
