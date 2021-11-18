@@ -23,8 +23,6 @@ class Utilites:
             else:
                 print('Invalid choice, enter again')
 
-    def display_game_winner():
-        print('Wins!!')
 
 
     
