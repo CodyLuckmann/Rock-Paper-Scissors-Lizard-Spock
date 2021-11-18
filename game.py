@@ -7,13 +7,9 @@ class Game:
     def __init__(self):
         pass
     
-  
-
-    
     Utilites.display_welcome()
     Utilites.display_rules()
 
-    
     def game(i):
         x = 0
         z = 0

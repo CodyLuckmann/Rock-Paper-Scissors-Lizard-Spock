@@ -1,10 +1,6 @@
 
 class Utilites:
     
-    
-    
-    
-    
     def display_welcome():
         print("\n\nWelcome to Rock Paper Scissors Lizard Spock!\n")    
         
