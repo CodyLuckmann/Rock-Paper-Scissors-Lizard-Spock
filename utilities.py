@@ -15,7 +15,6 @@ class Utilites:
         i = 0
         while i != (1 or 2):
             i = int(input("\nPress 1 for single player:  \nPress 2 for Multi-Player:\n "))
-            # print(i)
             if i == 1:
                 return 1
             elif i == 2:
@@ -23,9 +22,6 @@ class Utilites:
             else:
                 print('Invalid choice, enter again')
 
-    def display_game_winner():
-        print('Wins!!')
-        
 
 
     
