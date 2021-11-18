@@ -23,10 +23,10 @@ class Game:
         while (counterp1 < 2) or (counterp2 < 2):
             if counterp1 == 2:
                 print("\nPlayer 1 wins the game!\n") 
-                sys.exit
+                sys.exit('Player 1 wins')
             elif counterp2 == 2:
                 print("\nPlayer 2 wins the game!\n")
-                sys.exit
+                sys.exit('Player 2 wins')
             elif i == 1:
                 x = Player.display_and_pick_gestures(x)
                 while (x < 1) or (x > 5):
