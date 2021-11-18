@@ -1,5 +1,6 @@
 # Game Tuple Example
 
+# Human vs. AI
 gesture_wins = [("rock", "scissors"), ("scissors", "paper"), ("paper", "rock"), ("rock", "lizard"), ("lizard", "spock"), 
                 ("spock", "scissors"), ("scissors", "lizard"), ("lizard", "paper"), ("paper", "spock"), ("spock", "rock")] 
 turns = [gesture[1] for gesture in gesture_wins]  
