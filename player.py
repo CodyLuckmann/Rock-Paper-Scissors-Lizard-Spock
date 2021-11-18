@@ -1,7 +1,4 @@
 
-#from utilities import Utilites
-#from robot import Robot
-#from human import Human
 
 
 class Player:
@@ -17,10 +14,10 @@ class Player:
         return result
     
            
-    def user_name(self):
-        player_input = input("Please enter your name: ")
-        result = player_input
-        return result
+#    def user_name(self):
+#        player_input = input("Please enter your name: ")
+#        result = player_input
+#        return result
     
     def choose_game_mode(self):
         i =int(input("\nPlease press 1 for Single Player:  \nPlease press 2 for Multi-Player: "))
