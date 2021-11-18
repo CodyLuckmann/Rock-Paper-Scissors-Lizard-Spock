@@ -2,6 +2,7 @@ from player import Player
 from utilities import Utilites
 from robot import Robot
 #from test import Test
+import sys
 p1 = 0
 p2 = 0
 x = 0
@@ -41,8 +42,14 @@ class Game:
     i = Utilites.choose_game_mode()
     print(i)
     
-    while counterp1 < 2:
-        if i == 1:
+    while (counterp1 < 2) or (counterp2 < 2):
+        if counterp1 == 2:
+            print("Player 1 wins!") 
+            sys(exit)
+        elif counterp2 == 2:
+            print("Player 2 wins!")
+            sys(exit)
+        elif i == 1:
             x = Player.display_and_pick_gestures(x)
             z = Robot.display_and_pick_gestures(Player.robolist)
             print(x)
@@ -71,8 +78,9 @@ class Game:
                 print('tie')
                 #need to ask the user input again
             else:
-                print('Player 2 wins')
-            
+                counterp2 = counterp2 + 1
+                print(counterp2)
+        
             
             
     
