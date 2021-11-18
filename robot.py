@@ -1,5 +1,4 @@
 import random
-from utilities import Utilites
 from player import Player
 
 class Robot(Player):
@@ -9,7 +8,7 @@ class Robot(Player):
     
     def display_and_pick_gestures(list):
         ran1 = random.choice(Player.robolist)
-        print(ran1)
+        print(f'Robot choice: {ran1}')
         
         result = ran1
         return result
