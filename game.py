@@ -22,10 +22,10 @@ class Game:
     
         while (counterp1 < 2) or (counterp2 < 2):
             if counterp1 == 2:
-                print("Player 1 wins!") 
+                print("Player 1 wins the game!") 
                 sys(exit)
             elif counterp2 == 2:
-                print("Player 2 wins!")
+                print("Player 2 wins the game!")
                 sys(exit)
             elif i == 1:
                 x = Player.display_and_pick_gestures(x)
@@ -43,25 +43,25 @@ class Game:
                 print(z)
             if ((x == 1) and ((z == 3) or (z == 4))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round")
+                    print("Player one wins this round\n")
             elif ((x == 2) and ((z == 1) or (z == 5))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round")
+                    print("Player one wins this round\n")
             elif ((x == 3) and ((z == 2) or (z == 4))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round")
+                    print("Player one wins this round\n")
             elif ((x == 4) and ((z == 5) or (z == 2))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round")
+                    print("Player one wins this round\n")
             elif ((x == 5) and ((z == 3) or (z == 1))):
                     counterp1 = counterp1 + 1
-                    print("Player one wins this round")
+                    print("Player one wins this round\n")
             elif x == z:
-                    print('tie')
+                    print('tie\n')
                     
             else:
                     counterp2 = counterp2 + 1
-                    print("Player two wins this round")
+                    print("Player two wins this round\n")
             
             
             
